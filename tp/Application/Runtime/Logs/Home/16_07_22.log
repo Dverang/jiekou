@@ -1,0 +1,266 @@
+[ 2016-07-22T16:50:02+08:00 ] ::1 /10/jiekou/tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2016-07-22T16:50:11+08:00 ] ::1 /10/jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 0,2   [ RunTime:0.0406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-07-22T19:56:01+08:00 ] 127.0.0.1 /jiekou/tp/Home/Interface/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `job_token` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `users` WHERE ( email='123@qq.com' AND pwd='123' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `job_token` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `job_token` SET `id`='1',`token`='c4ca4238a0b923820dcc509a6f75849b20',`edittime`='1469188561' WHERE ( uid=1 ) [ RunTime:0.0005s ]
+
+[ 2016-07-22T19:56:40+08:00 ] 127.0.0.1 /jiekou/tp/Home/Interface/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `job_token` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `users` WHERE ( email='123@qq.com' AND pwd='123' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `job_token` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `job_token` SET `id`='1',`token`='c4ca4238a0b923820dcc509a6f75849b8',`edittime`='1469188600' WHERE ( uid=1 ) [ RunTime:0.0004s ]
+
+[ 2016-07-22T21:15:43+08:00 ] 127.0.0.1 /jiekou/tp/Home/Interface/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003061s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `job_token` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `users` WHERE ( email='123@qq.com' AND pwd='123' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `job_token` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `job_token` SET `id`='1',`token`='c4ca4238a0b923820dcc509a6f75849b16',`edittime`='1469193343' WHERE ( uid=1 ) [ RunTime:0.0009s ]
+
+[ 2016-07-22T21:15:45+08:00 ] 127.0.0.1 /jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003578s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 0,2   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010899s ]
+
+[ 2016-07-22T21:15:52+08:00 ] 127.0.0.1 /jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 2,2   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002304s ]
+
+[ 2016-07-22T21:15:56+08:00 ] 127.0.0.1 /jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 2,2   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-07-22T21:16:19+08:00 ] 127.0.0.1 /jiekou/tp/Home/Interface/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003682s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `job_token` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `users` WHERE ( email='123@qq.com' AND pwd='123' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `job_token` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `job_token` SET `id`='1',`token`='c4ca4238a0b923820dcc509a6f75849b16',`edittime`='1469193379' WHERE ( uid=1 ) [ RunTime:0.0007s ]
+
+[ 2016-07-22T21:16:21+08:00 ] 127.0.0.1 /jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002553s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 0,2   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012473s ]
+
+[ 2016-07-22T21:16:26+08:00 ] 127.0.0.1 /jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004446s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010906s ]
+
+[ 2016-07-22T21:16:31+08:00 ] 127.0.0.1 /jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002838s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 0,2   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009447s ]
+
+[ 2016-07-22T21:17:39+08:00 ] 127.0.0.1 /jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 2,2   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002515s ]
+
+[ 2016-07-22T21:18:35+08:00 ] 127.0.0.1 /jiekou/tp/Home/Interface/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `job_token` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `users` WHERE ( email='123@qq.com' AND pwd='123' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `job_token` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `job_token` SET `id`='1',`token`='c4ca4238a0b923820dcc509a6f75849b3',`edittime`='1469193515' WHERE ( uid=1 ) [ RunTime:0.0004s ]
+
+[ 2016-07-22T21:18:38+08:00 ] 127.0.0.1 /jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2016-07-22T21:18:46+08:00 ] 127.0.0.1 /jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 0,2   [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002269s ]
+
+[ 2016-07-22T21:20:14+08:00 ] 127.0.0.1 /jiekou/tp/Home/Interface/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `job_token` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `users` WHERE ( email='123@qq.com' AND pwd='123' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `job_token` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `job_token` SET `id`='1',`token`='c4ca4238a0b923820dcc509a6f75849b20',`edittime`='1469193614' WHERE ( uid=1 ) [ RunTime:0.0003s ]
+
+[ 2016-07-22T21:20:16+08:00 ] 127.0.0.1 /jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2016-07-22T21:20:22+08:00 ] 127.0.0.1 /jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 0,2   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003605s ]
+

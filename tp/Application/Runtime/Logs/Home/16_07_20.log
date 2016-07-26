@@ -1,0 +1,112 @@
+[ 2016-07-20T09:04:33+08:00 ] ::1 /10/jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0613s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-07-20T09:04:39+08:00 ] ::1 /10/jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 2,2   [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-07-20T09:04:43+08:00 ] ::1 /10/jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 2,2   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-07-20T09:11:12+08:00 ] ::1 /10/jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 4,2   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-07-20T09:11:21+08:00 ] ::1 /10/jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 0,2   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-07-20T09:23:27+08:00 ] ::1 /10/jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-07-20T19:32:18+08:00 ] ::1 /10/jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0846s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 0,2   [ RunTime:0.0197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016816s ]
+
+[ 2016-07-20T19:32:22+08:00 ] ::1 /10/jiekou/tp/Home/list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `inviteinfo` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `inviteinfo` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `inviteinfo` LIMIT 2,2   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
