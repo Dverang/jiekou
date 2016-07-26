@@ -1,0 +1,98 @@
+[ 2016-07-16T08:06:49+08:00 ] ::1 /10/jiekou/tp/Home/Interface/page/page_size/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0540s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` ORDER BY id desc LIMIT 0,1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2016-07-16T08:06:59+08:00 ] ::1 /10/jiekou/tp/Home/Interface/page/page_size/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-07-16T08:55:44+08:00 ] ::1 /10/jiekou/tp/Home/Interface/page/page/2page_size/1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` ORDER BY id desc LIMIT 10,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2016-07-16T08:55:48+08:00 ] ::1 /10/jiekou/tp/Home/Interface/page/page/2/page_size/1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` ORDER BY id desc LIMIT 1,1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-07-16T08:56:00+08:00 ] ::1 /10/jiekou/tp/Home/Interface/page/page/1/page_size/1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` ORDER BY id desc LIMIT 0,1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-07-16T08:56:08+08:00 ] ::1 /10/jiekou/tp/Home/Interface/page/page/5/page_size/1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `users` ORDER BY id desc LIMIT 4,1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-07-16T08:56:15+08:00 ] ::1 /10/jiekou/tp/Home/Interface/page/page/3/page_size/1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `users` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `users` ORDER BY id desc LIMIT 2,1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
